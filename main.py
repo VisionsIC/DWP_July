@@ -43,17 +43,20 @@ story['feeling'] = raw_input("Enter a raw feeling to which engages you; (ex. gri
 #  This is accomplished by adding the int() method.
 random_year = int(story['year_picked']) + 50
 
+#  Another conversion of a string to an integer.
+feelings = int(story['emotions'])
+
 #  An array called # EMOTIONS # to create an emotion wheel than when a number is picked it outputs an emotion into the
 #  story dict.
 emotions = ["panic", "fear", "hysteria", "despair", "uncertainty"]
 
 #  if statement tells the data variable if the EMOTIONS integer is grater than 6, then it IS 6.
-if story['emotions'] > 5:
-    story['emotions'] = 5
+if feelings > 5:
+    feelings = 5
 
 #  if statement tells the data variable if the EMOTIONS integer is less than 1, then it IS 1.
-elif story['emotions'] < 0:
-    story['emotions'] = 0
+elif feelings < 0:
+    feelings = 0
 
 #  Incorporate EMOTIONS variable by inserting the STORY variable with the attribute name FEELING to the string.
 emotions.insert(0, str(story['feeling']))
