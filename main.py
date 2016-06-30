@@ -22,15 +22,15 @@ story = dict()
 story['my_name'] = raw_input("Please enter your first name:  ")
 story['year_picked'] = raw_input("Enter a favorite year:  ")
 story['tens_number'] = raw_input("Enter a number in increments of 10 (ex. 10, 20):  ")
-story['emotions'] = input("Enter a number between 1 and 5: ")
+story['emotions'] = input("Enter a number between 0 and 5: ")
 story['adjective'] = raw_input("Enter an adjective ending in LY:  ")
 story['act_verb'] = raw_input("Enter an action verb ending in ING:  ")
-story['second_act_verb'] = raw_input("Enter another action verb:  ")
-story['third_act_verb'] = raw_input("Enter yet another action verb:  ")
+story['second_act_verb'] = raw_input("Enter another action verb ending in ING:  ")
+story['third_act_verb'] = raw_input("Enter yet another action verb ending in ING:  ")
 story['pet'] = raw_input("Enter the pet animal you have, or if none, you would have:  ")
 story['pet_num'] = raw_input("How many pets do you have? :  ")
 story['disaster'] = raw_input("Enter a natural element; (fire, wind, water, earth, or mountains):  ")
-story['plural_act_verb'] = raw_input("Enter a plural action verb:  ")
+story['plural_act_verb'] = raw_input("Enter your final action verb ending in ING:  ")
 story['verbal_emotion'] = raw_input("Enter a verbal emotion (ex. yell, scream):  ")
 story['gathering_type'] = raw_input("Enter a gathering of sorts you enjoy attending; (ex. party, banquet):  ")
 story['feeling'] = raw_input("Enter a raw feeling to which engages you; (ex. grief, anxiety):  ")
@@ -47,13 +47,13 @@ random_year = int(story['year_picked']) + 50
 #  story dict.
 emotions = ["panic", "fear", "hysteria", "despair", "uncertainty"]
 
-#  if statement tells the data variable if the EMOTIONS integer is grater than 5, then it IS 5.
+#  if statement tells the data variable if the EMOTIONS integer is grater than 6, then it IS 6.
 if story['emotions'] > 5:
     story['emotions'] = 5
 
 #  if statement tells the data variable if the EMOTIONS integer is less than 1, then it IS 1.
-elif story['emotions'] < 1:
-    story['emotions'] = 1
+elif story['emotions'] < 0:
+    story['emotions'] = 0
 
 #  Incorporate EMOTIONS variable by inserting the STORY variable with the attribute name FEELING to the string.
 emotions.insert(0, str(story['feeling']))
