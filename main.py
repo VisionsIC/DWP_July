@@ -23,14 +23,14 @@ story['my_name'] = raw_input("Please type your first name:  ")
 story['year_picked'] = raw_input("Type a favorite year:  ")
 story['tens_number'] = raw_input("Type a number in increments of 10 (ex. 10, 20):  ")
 story['emotions'] = input("Pick a number between 1 and 5: ")
-story['adjective'] = raw_input("Type an adjective:  ")
-story['act_verb'] = raw_input("Type a action verb:  ")
+story['adjective'] = raw_input("Type an adjective ending in LY:  ")
+story['act_verb'] = raw_input("Type a action verb ending in ING:  ")
 story['second_act_verb'] = raw_input("Type another action verb:  ")
 story['third_act_verb'] = raw_input("Type yet another action verb:  ")
 story['pet'] = raw_input("Type the pet animal you have, or if none, you would have:  ")
 story['pet_num'] = raw_input("How many pets do you have? :  ")
 story['disaster'] = raw_input("Type the natural you find most interesting; (fire, wind, water, earth, or mountains):  ")
-story['plural_act_verb'] = raw_input("Type the final action verb:  ")
+story['plural_act_verb'] = raw_input("Type a plural action verb:  ")
 story['verbal_emotion'] = raw_input("Type a verbal emotion (ex. yell, scream):  ")
 story['gathering_type'] = raw_input("Type a gathering of sorts you enjoy attending; (ex. party, banquet):  ")
 story['feeling'] = raw_input("Type a raw feeling to which engages you; (ex. grief, anxiety):  ")
@@ -75,8 +75,6 @@ emotion_type = ""
 for emotion in blank_array:
     emotion_type = emotion_type + emotion + ", "
 
-
-
 #  A List called # INTRUDERS # that has values and keys of intruder types.
 nature = {"fire": "Inferno", "wind": "Tornado", "water": "Tsunami", "earth": "Earthquake", "mountain": "Volcano"}
 
@@ -118,4 +116,4 @@ else:
 #  Print to the screen the story by putting together all the variables, functions, dictionaries, and methods to produce
 # a result.
 
-print "\n""\n""\n" " Nature Vs. Humanity: The Battle For Earth" "\n" "By Aaron Wilson" "\n" "\n" "In the wake of increased chatter on the communication super-highway, " + story['my_name'] + " listened very intently at what message was being " "\n" "delivered. In the year " + str(random_year) + ", societal breakdown was beginning to happen due to " + story['feeling'] + " of what was to come..." "\n" + story['my_name'] + " was both anxious, yet determined to continue " + story['adjective'] + " through these trying times. Coming from a hard-nosed, blue collar family; " + story['my_name'] + " was accustomed to " + story['second_act_verb'] + " through it and banning together to protect the very place his family called home. " "\n" " Suddenly, In the distance, " + story['my_name'] + " could see a" + disaster_amount + " of " + add_nature + " were " + story['third_act_verb'] + " barreling down upon" + story['my_name'] + "' s beloved homeland! " "\n" " " + story['my_name'] + " knew this would be the event of a lifetime. Without much time to spare, " + story['my_name'] + " jumped on the " + story['pet'] + " and had to quickly retreat. " "\n" " Now came strength in numbers, to where " + str(story['pet_num']) + " other " + story['pet'] + "s were ready to join the great battle to save humanity from nature's wrath!" "\n" " The " + add_nature + "  were " + story['plural_act_verb'] + " in, so with no haste " + story['my_name'] + " turned around and vowed to fight!" "\n" "TO THE END! " + story['my_name'] + " began to " + story['verbal_emotion'] + " out... We are told that life is a " + story['gathering_type'] + ", sometimes you just have to " + story['act_verb'] + "!" "\n" "\n" "\n"  " THE END"
+print "\n""\n""\n" " Nature Vs. Humanity: The Battle For Earth" "\n" "By Aaron Wilson" "\n" "\n" "In the wake of increased chatter on the communication super-highway, " + story['my_name'] + " listened very intently at what message was being " "\n" "delivered. In the year " + str(random_year) + ", societal breakdown was beginning to happen due to " + story['feeling'] + " of what was to come..." "\n" + story['my_name'] + " was both " "\n" "anxious, yet determined to continue " + story['adjective'] + " through these trying times. Coming from a hard-nosed, blue collar" "\n" "family; " + story['my_name'] + " was accustomed to " + story['second_act_verb'] + " through it and come together to protect the very place his family called home. " "\n" " Suddenly, In the distance, " + story['my_name'] + " could see a " + disaster_amount + " of " + add_nature + " were " + story['third_act_verb'] + ", and barreling down upon " + story['my_name'] + "'s beloved homeland! " "\n" " " + story['my_name'] + " knew this would be the event of a lifetime. Without much time to spare, " + story['my_name'] + " jumped on the " + story['pet'] + " and had to quickly retreat. " "\n" " Now came strength in numbers, to where " + str(story['pet_num']) + " other " + story['pet'] + "s were ready to join the great battle to save humanity from nature's wrath!" "\n" " The " + add_nature + " were " + story['plural_act_verb'] + " in, so with no haste " + story['my_name'] + " turned around and vowed to fight" "\n" "TO THE END! " + story['my_name'] + " began to " + story['verbal_emotion'] + " out... We are told that life is a " + story['gathering_type'] + ", sometimes you just have to go out " + story['act_verb'] + "!" "\n" "\n" "\n"  " THE END"
