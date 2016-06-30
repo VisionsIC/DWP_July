@@ -59,12 +59,12 @@ elif feelings < 0:
     feelings = 0
 
 #  Incorporate EMOTIONS variable by inserting the STORY variable with the attribute name FEELING to the string.
-emotions.insert(0, str(story['feeling']))
+emotions.insert(0, str(feelings))
 #  Loop through emotions variable by inserting it into an blank array
 blank_array = []
 
 #  Command a for loop within the "range" of each if statement in the conditionals coded above.
-for index in range(story['emotions']):
+for index in range(feelings):
     #  opens this array and appends a string to the emotions attribute
     blank_array.append(str(emotions[index]))
 
