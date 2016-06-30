@@ -66,7 +66,7 @@ blank_array = []
 #  Command a for loop within the "range" of each if statement in the conditionals coded above.
 for index in range(feelings):
     #  opens this array and appends a string to the emotions attribute
-    blank_array.append(str(emotions[index]))
+    blank_array.append((emotions[index]))
 
 #  Create EMOTION TYPE variable which is an empty string and open to further injection of conditional functionality.
 emotion_type = ""
@@ -77,14 +77,14 @@ for emotion in blank_array:
     emotion_type = emotion_type + emotion + ", "
 
 #  A List called # INTRUDERS # that has values and keys of intruder types.
-nature = {"fire": "Inferno", "wind": "Tornado", "water": "Tsunami", "earth": "Earthquake", "mountain": "Volcano"}
+nature = {"fire": "Infernos", "wind": "Tornadoes", "water": "Tsunamis'", "earth": "Earthquakes", "mountain": "Volcanoes"}
 
 #  Also, I'll create a variable called # SENSE # to eliminate code redundancy.
 disaster = story['disaster']
 
 #  Another conditional that loops through using disaster
 if disaster in nature:
-    add_nature = (nature[disaster] + "s")
+    add_nature = (nature[disaster])
 
 #  No indent spacing halts the if statement.
 
