@@ -47,27 +47,25 @@ random_year = int(story['year_picked']) + 50
 #  story dict.
 emotions = ["panic", "fear", "hysteria", "despair", "uncertainty"]
 
-#  if statement tells the data variable if the secret "integer" is grater than 4, then it IS 4. Every integer in
-#  between, Python will do something.
+#  if statement tells the data variable if the EMOTIONS integer is grater than 5, then it IS 5.
 if story['emotions'] > 5:
     story['emotions'] = 5
 
-#  if statement tells the data variable if the secret "integer" is less than 1, then it IS 1.
+#  if statement tells the data variable if the EMOTIONS integer is less than 1, then it IS 1.
 elif story['emotions'] < 1:
     story['emotions'] = 1
 
-#  incorporate emotions variable by inserting the data variable with the atribute name character to the string.
+#  Incorporate EMOTIONS variable by inserting the STORY variable with the attribute name FEELING to the string.
 emotions.insert(0, str(story['feeling']))
 #  Loop through emotions variable by inserting it into an blank array
 blank_array = []
 
-#  command a for loop within the "range" of each if statement in the conditionals coded above.
+#  Command a for loop within the "range" of each if statement in the conditionals coded above.
 for index in range(story['emotions']):
     #  opens this array and appends a string to the emotions attribute
     blank_array.append(str(emotions[index]))
 
-#  Create emotion type variable which is empty and open to further injection of conditional functionality to again
-#  "do something".
+#  Create EMOTION TYPE variable which is an empty string and open to further injection of conditional functionality.
 emotion_type = ""
 
 #  the below for loop inserts the character variable in that "blank_array" variable above, the line of code below that
@@ -92,21 +90,21 @@ The function below figures out the amount of nature there will be attacking in t
 the variable is a string that needs conversion to an integer using int()
 '''
 
-#  Comment
+#  Create the TENS NUMBER variable to store the 'tens_number' raw_input to minimize code bloat.
 tens_number = story['tens_number']
 
 
-#  Comment
+#  Define the method CATASTROPHE AMOUNT that uses TENS NUMBER as an attribute to return the appropriate computation.
 def catastrophe_amount(tens_number):
 
-    # Comment
+    #  Create a variable called AMOUNT to convert the TENS NUMBER variable to an integer for calculation of AMOUNT.
     amount = int(tens_number) % 2 * 5000
     return amount
 
-#  Comment
+#  This is where the catastrophe variable is used to invoke the catastrophe amount method.
 catastrophe = catastrophe_amount(tens_number)
 
-#  Invoke the catastrophe amount and show its depicted by its amount.
+#  Invoke the catastrophe amount and show its depicted by its amount with IF and ELSE statements to output a result.
 if catastrophe > 25000:
     disaster_amount = "massive band"
 else:
