@@ -27,6 +27,7 @@ story['adjective'] = raw_input("Enter an adjective ending in LY:  ")
 story['act_verb'] = raw_input("Enter an action verb ending in ING:  ")
 story['second_act_verb'] = raw_input("Enter another action verb ending in ING:  ")
 story['third_act_verb'] = raw_input("Enter yet another action verb ending in ING:  ")
+story['num'] = float(input('Enter the estimated current price for a candy bar (example 1.79) : '))
 story['pet'] = raw_input("Enter the pet animal you have, or if none, you would have:  ")
 story['pet_num'] = raw_input("How many pets do you have? :  ")
 story['disaster'] = raw_input("Enter a natural element; (fire, wind, water, earth, or mountains):  ")
@@ -97,6 +98,14 @@ the variable is a string that needs conversion to an integer using int()
 tens_number = story['tens_number']
 
 
+# defines the APPROACH SPEED function to see how much speed the disastrous nature event will output.
+def approach_speed():
+    decimal = story['num']
+    value = decimal * 75
+    return value
+# initiate TOTAL COST method which contains a function with the decimal variable times 75.
+total_cost = approach_speed()
+
 #  Define the method CATASTROPHE AMOUNT that uses TENS NUMBER as an attribute to return the appropriate computation.
 def catastrophe_amount(tens_number):
 
@@ -117,4 +126,4 @@ else:
 #  Print to the screen the story by putting together all the variables, functions, dictionaries, and methods to produce
 # a result.
 
-print "\n""\n""\n" " Nature Vs. Humanity: The Battle For Earth" "\n" "By Aaron Wilson" "\n" "\n" "In the wake of increased chatter on the communication super-highway, " + story['my_name'] + " listened very intently at what message was being " "\n" "delivered. In the year " + str(random_year) + ", societal breakdown was beginning to happen due to " + emotion + " of what was to come..." "\n" + story['my_name'] + " was both anxious, yet determined to continue " + story['adjective'] + " through these trying times. Coming from a hard-nosed,""\n"" blue collar family; " + story['my_name'] + " was accustomed to " + story['second_act_verb'] + " through it and come together to protect the very place his " "\n" " family called home.  Suddenly, In the distance, " + story['my_name'] + " could see a " + disaster_amount + " of " + add_nature + " were " + story['third_act_verb'] + ", and barreling down" "\n" " upon " + story['my_name'] + "'s beloved homeland! " "\n" "\n" + story['my_name'] + " knew this would be the event of a lifetime. Without much time to spare, " + story['my_name'] + " jumped on the " + story['pet'] + " and had " "\n" " to quickly retreat. Now came strength in numbers, to where " + str(story['pet_num']) + " other " + story['pet'] + "s were ready to join the great battle to save humanity from " "\n" " nature's wrath! The " + add_nature + " were " + story['plural_act_verb'] + " in, so with no haste " + story['my_name'] + " turned around and vowed to fight" "\n" "TO THE END! " + story['my_name'] + " began to " + story['verbal_emotion'] + " out... We are told that life is a " + story['gathering_type'] + ", sometimes you just have to go out " + story['act_verb'] + "!" "\n" "\n" "\n"  " THE END"
+print "\n""\n""\n" " Nature Vs. Humanity: The Battle For Earth" "\n" "By Aaron Wilson" "\n" "\n" "In the wake of increased chatter on the communication super-highway, " + story['my_name'] + " listened very intently at what message was being " "\n" "delivered. In the year " + str(random_year) + ", societal breakdown was beginning to happen due to " + emotion + " of what was to come..." "\n" + story['my_name'] + " was both anxious, yet determined to continue " + story['adjective'] + " through these trying times. Coming from a hard-nosed,""\n"" blue collar family; " + story['my_name'] + " was accustomed to " + story['second_act_verb'] + " through it and come together to protect the very place his " "\n" " family called home.  Suddenly, In the distance, " + story['my_name'] + " could see a " + disaster_amount + " of " + add_nature + " were " + story['third_act_verb'] + ", and barreling down" "\n" " upon " + story['my_name'] + "'s beloved homeland! " "\n" "\n" + story['my_name'] + " took out his speed calculation device to determine that the " + add_nature + " were moving at the speed of " + str(total_cost) + " MPH! " + story['my_name'] + " knew this would be the event of a lifetime. Without much time to spare, " + story['my_name'] + " jumped on the " + story['pet'] + " and had " "\n" " to quickly retreat. Now came strength in numbers, to where " + str(story['pet_num']) + " other " + story['pet'] + "s were ready to join the great battle to save humanity from " "\n" " nature's wrath! The " + add_nature + " were " + story['plural_act_verb'] + " in, so with no haste " + story['my_name'] + " turned around and vowed to fight" "\n" "TO THE END! " + story['my_name'] + " began to " + story['verbal_emotion'] + " out... We are told that life is a " + story['gathering_type'] + ", sometimes you just have to go out " + story['act_verb'] + "!" "\n" "\n" "\n"  " THE END"
