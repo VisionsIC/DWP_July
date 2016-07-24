@@ -1,0 +1,512 @@
+body {
+    position: absolute;
+    width: 100%;
+    background: url(../images/bg/shoeprints_bg.png) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+div#content_wrap {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#instruct_h1 {
+    position: absolute;
+    top: -2px;
+    right: 32px;
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+br {
+    line-height: .5em;
+}
+
+form {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+label {
+    cursor: pointer;
+    display: block;
+    margin: 10px 0 0 25px;
+    font-family: "arial","helvetica","Verdana",serif;
+    font-size: 18px;
+    text-align: left;
+    color: rgb(49, 136, 190);
+}
+
+input {
+    display: inline-block;
+    width: 210px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 18px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #3188be;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    background: none repeat scroll 0 0 #FBFBFB;
+    margin: 5px 0 0 0;
+}
+
+.checkbox_wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.checkbox_wrap input[type=checkbox] {
+    width: 50px;
+    height: 25px;
+}
+
+#radio label {
+     display: inline;
+     margin: 5px 0 0 5px;
+}
+
+#radio input[type=radio] {
+    position: relative;
+    top: 250px;
+    width: 15px;
+}
+
+#radio input#male {
+    top: 40px;
+    left: 40px;
+}
+
+#radio input#female {
+    top: 40px;
+    left: 100px;
+}
+
+#shoe_item {
+    position: absolute;
+    top: -8px;
+    right: 0;
+    text-align: center;
+    width: 996px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: rgba(49, 136, 190, 0.75);
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 12px;
+    padding: 25px 0 8px 0;
+    z-index: 1;
+}
+
+input[type=submit] {
+    position: absolute;
+    left: 6px;
+    top: 260px;
+    background-color: rgba(49, 136, 190, 0.5);
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    -webkit-box-shadow: 0 3px 0 rgb(0, 0, 0), 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #000000, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.32), 0 -1px #fff inset;
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    width: 360px;
+    color: #fff;
+    padding: 1px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+select {
+    padding: 5px;
+    margin: 0 0 0 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 0 rgb(0, 0, 0), 0 -1px rgb(49, 136, 190) inset;
+    -moz-box-shadow: 0 3px 0 #000000, 0 -1px rgb(49, 136, 190) inset;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.32), 0 -1px rgb(49, 136, 190) inset;
+    background: rgba(46,169,66 0.1);
+    color: rgb(49, 136, 190);
+    border: none;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+#male_div {
+    position: absolute;
+    top: 30px;
+    left: 312px;
+    height: 300px;
+    width: 362px;
+    border: 2px solid rgb(49, 136, 190);
+    background-color: rgba(250, 240, 231, 1);
+    -webkit-box-shadow: 0 3px 0 rgb(0, 0, 0), 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #000000, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.32), 0 -1px #fff inset;
+    padding: 5px;
+    z-index: 2;
+}
+
+#female_div {
+    position: absolute;
+    top: 30px;
+    left: 312px;
+    height: 300px;
+    width: 362px;
+    border: 2px solid rgb(49, 136, 190);
+    background-color: rgba(250, 240, 231, 1);
+    -webkit-box-shadow: 0 3px 0 rgb(0, 0, 0), 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #000000, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.32), 0 -1px #fff inset;
+    padding: 5px;
+    z-index: 2;
+}
+
+#announce_div h1 {
+    position: absolute;
+    top: 30px;
+    left: 312px;
+    width: 362px;
+    height: 300px;
+    margin: 0 auto;
+    color: rgb(49, 136, 190);
+    font-size: medium;
+    font-weight: bold;
+    border: 2px solid rgb(49, 136, 190);
+    background-color: rgba(250, 240, 231, 1);
+    -webkit-box-shadow: 0 3px 0 rgb(0, 0, 0), 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #000000, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.32), 0 -1px #fff inset;
+    padding: 5px;
+    z-index: 2;
+}
+
+#index_h1 {
+    position: absolute;
+    top: 50px;
+}
+
+/** img css styles below **/
+
+img {
+    position: relative;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    border: 2px solid rgb(49, 136, 190);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip:    padding;
+    background-clip:         padding-box;
+    background-color: rgba(250, 240, 231, 1);
+    -webkit-box-shadow: 0 3px 0 rgb(0, 0, 0), 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #000000, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.32), 0 -1px #fff inset;
+    padding: 5px;
+    z-index: 2;
+}
+
+img#shoe_logo {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 300px;
+    height: 300px;
+}
+
+#dm_work, #dm_loafer, #dm_sandal, #df_work, #df_loafer, #df_sandal {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+#dm_casual, #df_casual {
+    position: absolute;
+    display: block;
+    top: -30px;
+    left: -15px;
+}
+
+#dm_dress, #df_dress {
+    position: absolute;
+    display: block;
+    top: -30px;
+    left: 104px;
+}
+
+#dm_sneaker, #df_sneaker {
+    position: absolute;
+    display: block;
+    top: -30px;
+    left: 222px;
+}
+
+#dm_work, #df_work {
+    top: 95px;
+    left: -15px;
+}
+
+#dm_loafer, #df_loafer {
+    top: 95px;
+    left: 104px;
+}
+
+#dm_sandal, #df_sandal {
+    top: 95px;
+    left: 222px;
+}
+
+input#im_casual, input#im_dress, input#im_work, input#im_loafer, input#im_sandal, input#im_sneaker {
+    position: relative;
+    top: 135px;
+}
+
+input#im_casual, input#im_dress, input#im_work, input#im_loafer, input#im_sandal, input#im_sneaker {
+    left: 75px;
+}
+
+input#if_casual, input#if_dress, input#if_work, input#if_loafer, input#if_sandal, input#if_sneaker {
+    position: relative;
+    top: 135px;
+}
+
+input#if_casual, input#if_dress, input#if_work, input#if_loafer, input#if_sandal, input#if_sneaker {
+    left: 75px;
+}
+
+/** info wrap css styling below **/
+
+#info_wrap {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(250, 240, 231, 1);
+    border: 2px solid rgb(49, 136, 190);
+    border-radius: 16px;
+    -webkit-box-shadow: 0 3px 0 rgb(0, 0, 0), 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #000000, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.32), 0 -1px #fff inset;
+    padding: 5px;
+    z-index: 2;
+}
+
+#info_wrap label {
+    position: relative;
+    left: 2px;
+}
+
+#info_wrap label#f_name {
+    top: -1px;
+}
+
+#info_wrap label#l_name {
+    top: 0;
+}
+
+#info_wrap label#b_date {
+    top: 0;
+}
+
+#info_wrap label#gender_lbl {
+    top: 0;
+}
+
+#info_wrap label#male_lbl {
+    top: 0;
+    left: 0;
+}
+
+#info_wrap label#female_lbl {
+    top: 0;
+    left: 50px;
+}
+
+#info_wrap select {
+    position: relative;
+    top: 0;
+}
+#info_wrap select#month_select {
+    left: 25px;
+}
+
+#info_wrap select#day_select {
+    left: 50px;
+}
+
+#info_wrap select#year_select {
+    left: 80px;
+}
+
+#info_wrap input {
+    position: relative;
+    left: 25px;
+}
+
+#info_wrap input#first_name {
+    top: 0;
+}
+
+#info_wrap input#last_name {
+    top: 0;
+}
+
+#index_ftr h2 {
+    position: absolute;
+    top: 310px;
+    left: 0;
+    width: 996px;
+    font-size: 1.1em;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(49, 136, 190, 1);
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 12px;
+    padding: 25px 0 8px 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/** output css styling below **/
+
+.output_div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg/shoes_mural.png") repeat;
+    background-size: cover;
+}
+
+#blue_bar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 300px;
+    height: 20px;
+    background-color: rgba(49, 136, 190, 1);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    z-index: 2;
+}
+
+.output_div header {
+    position: absolute;
+    width: 996px;
+}
+
+.output_div header h1 {
+    position: absolute;
+    top: -8px;
+    right: -4px;
+    width: 996px;
+    font-size: 1.1em;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(49, 136, 190, 1);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 16px 16px 0 16px;
+    padding: 4px 0 25px 0;
+}
+
+#output_fs {
+    border: none;
+}
+
+#info_output {
+    position: absolute;
+    top: 53px;
+    left: 312px;
+    width: 300px;
+    height: 278px;
+    margin: 0 auto;
+    background-color: rgba(250, 240, 231, 1);
+    border: 4px solid rgb(49, 136, 190);
+    padding: 4px 12px 4px 12px;
+    color: #000;
+    z-index: 3;
+}
+
+#info_output h1 {
+    position: absolute;
+    margin: 5px 0 0 0;
+    color: #000;
+    font-size: 1em;
+    text-align: center;
+    border-bottom: double;
+}
+
+#info_output h2 {
+    position: absolute;
+    margin: 10px 0 0 0;
+    color: #000;
+    font-size: .9em;
+    font-weight: bolder;
+    text-align: left;
+    text-indent: 5px;
+}
+
+#choices_output {
+    position: absolute;
+    top: 53px;
+    left: 640px;
+    width: 328px;
+    height: 278px;
+    margin: 0 auto;
+    background-color: rgba(250, 240, 231, 1);
+    border: 4px solid rgb(49, 136, 190);
+    padding: 4px 12px 4px 12px;
+    z-index: 3;
+}
+
+#choices_output h1 {
+    position: absolute;
+    margin: 8px 0 0 0;
+    color: #000;
+    font-size: 1em;
+    text-align: center;
+    border-bottom: double;
+}
+
+#choices_output h2 {
+    position: absolute;
+    margin: 2px 0 0 0;
+    color: #000;
+    font-size: .9em;
+    font-weight: bolder;
+    text-align: left;
+    text-indent: 5px;
+}
+
+#output_ftr h2 {
+    position: absolute;
+    top: 310px;
+    left: 0;
+    width: 996px;
+    font-size: 1.1em;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(49, 136, 190, 1);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    padding: 25px 0 8px  0;
+    overflow: hidden;
+}
