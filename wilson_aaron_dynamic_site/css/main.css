@@ -256,8 +256,8 @@ li > a:link, li > a:visited {
 }
 #players h2 #first_simmons {
     position:absolute;
-    top:-120px;
-    left:367px;
+    top:-90px;
+    left:330px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
     color: rgb(255, 255, 255);
@@ -266,7 +266,7 @@ li > a:link, li > a:visited {
 }
 #players h2 #last_simmons {
     position: absolute;
-    top: -120px;
+    top: -90px;
     left: 505px;
     padding: 20px;
     font-family: 'learning_curve_proregular', sans-serif;
@@ -285,8 +285,8 @@ li > a:link, li > a:visited {
 }
 #players h2 #first_ingram {
     position:absolute;
-    top:-120px;
-    left:367px;
+    top:-90px;
+    left:330px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
     color: rgb(255, 255, 255);
@@ -295,7 +295,7 @@ li > a:link, li > a:visited {
 }
 #players h2 #last_ingram {
     position:absolute;
-    top:-120px;
+    top:-90px;
     left:505px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
@@ -314,22 +314,22 @@ li > a:link, li > a:visited {
 }
 #players h2 #first_hield {
     position:absolute;
-    top:-120px;
-    left:367px;
+    top:-90px;
+    left:330px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow:4px 4px 0 #000000;
+    color:rgb(255, 255, 255);
+    text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
 #players h2 #last_hield {
     position:absolute;
-    top:-120px;
+    top:-90px;
     left:505px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow:4px 4px 0 #000000;
+    color:rgb(255, 255, 255);
+    text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
 #players h2 #team_dunn {
@@ -338,7 +338,7 @@ li > a:link, li > a:visited {
     left:320px;
     padding:20px;
     font-size:2.5em;
-    color: rgb(26,89,140);
+    color:rgb(26,89,140);
     text-shadow:4px 4px 0 #fff;
 }
 #players h2 #first_dunn {
@@ -348,7 +348,7 @@ li > a:link, li > a:visited {
     width:25px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color: rgb(26,89,140);
+    color:rgb(26,89,140);
     text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
@@ -358,7 +358,7 @@ li > a:link, li > a:visited {
     left:400px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color: rgb(26,89,140);
+    color:rgb(26,89,140);
     text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
@@ -368,27 +368,27 @@ li > a:link, li > a:visited {
     left:320px;
     padding:20px;
     font-size:2.5em;
-    color:#3188BE;
+    color:rgb(99,131,178);
     text-shadow:4px 4px 0 #fff;
 }
 #players h2 #first_murray {
     position:absolute;
-    top:-120px;
-    left:367px;
+    top:-90px;
+    left:330px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow:4px 4px 0 #000000;
+    color:rgb(99,131,178);
+    text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
 #players h2 #last_murray {
     position:absolute;
-    top:-120px;
-    left:505px;
+    top:-90px;
+    left:425px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow:4px 4px 0 #000000;
+    color:rgb(99,131,178);
+    text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
 #players h2 #team_brown {
@@ -397,27 +397,27 @@ li > a:link, li > a:visited {
     left:320px;
     padding:20px;
     font-size:2.5em;
-    color: rgba(55, 93, 5, 0.86);
+    color:rgb(47,91,68);
     text-shadow:4px 4px 0 #000000;
 }
 #players h2 #first_brown {
     position:absolute;
-    top:-120px;
-    left:367px;
+    top:-90px;
+    left:330px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow:4px 4px 0 #000000;
+    color:rgb(47,91,68);
+    text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
 #players h2 #last_brown {
     position:absolute;
-    top:-120px;
-    left:505px;
+    top:-90px;
+    left:425px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow:4px 4px 0 #000000;
+    color:rgb(47,91,68);
+    text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
 
