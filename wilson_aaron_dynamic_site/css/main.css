@@ -280,7 +280,7 @@ li > a:link, li > a:visited {
     left:320px;
     padding:20px;
     font-size:2.5em;
-    color:#3188BE;
+    color:rgb(69,40,124);
     text-shadow:4px 4px 0 #000000;
 }
 #players h2 #first_ingram {
@@ -289,18 +289,18 @@ li > a:link, li > a:visited {
     left:330px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow:4px 4px 0 #000000;
+    color:rgb(69,40,124);
+    text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
 #players h2 #last_ingram {
     position:absolute;
     top:-90px;
-    left:505px;
+    left:425px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow:4px 4px 0 #000000;
+    color:rgb(69,40,124);
+    text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
 #players h2 #team_hield {
@@ -309,7 +309,7 @@ li > a:link, li > a:visited {
     left:320px;
     padding:20px;
     font-size:2.5em;
-    color:#3188BE;
+    color:rgb(42,44,65);
     text-shadow:4px 4px 0 #fff;
 }
 #players h2 #first_hield {
@@ -318,17 +318,17 @@ li > a:link, li > a:visited {
     left:330px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color:rgb(255, 255, 255);
+    color:rgb(42,44,65);
     text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
 #players h2 #last_hield {
     position:absolute;
     top:-90px;
-    left:505px;
+    left:425px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color:rgb(255, 255, 255);
+    color:rgb(42,44,65);
     text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
