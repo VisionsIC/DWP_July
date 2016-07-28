@@ -120,23 +120,26 @@ img[alt~="home"] {
 p#home_p1 {
     position:relative;
     top:200px;
+    text-shadow:2px 2px 0 rgba(190, 142, 110, 0.66);
     z-index:1;
 }
 
 p#home_p2 {
     position:relative;
     top:210px;
+    text-shadow:2px 2px 0 rgba(190, 142, 110, 0.66);
     z-index:1;
 }
 
 h1#home_h1 {
     position:relative;
-    top:185px;
-    font-family:"Deftone Stylus", serif;
+    top:155px;
+    font-family: 'vtks_universityregular', sans-serif;
+    color:rgb(26,89,140);
     font-size:1.8em;
     font-weight:100;
     letter-spacing:2px;
-    text-shadow:4px 4px 0 #3188BE;
+    text-shadow:4px 4px 0 #000000;
     z-index:1;
 }
 
@@ -239,8 +242,6 @@ li > a:link, li > a:visited {
     color: #000000;
     text-shadow:4px 4px 0 #3188BE;
     text-align:left;
-    border: #000000 solid;
-    border-width:0 0 1px 0;
     padding:0 0 10px 0;
     clear:both;
     z-index: 2;
@@ -251,7 +252,7 @@ li > a:link, li > a:visited {
     left:320px;
     padding:20px;
     font-size:2.5em;
-    color: #be1648;
+    color:rgb(201,23,47);
     text-shadow:4px 4px 0 #000000;
 }
 #players h2 #first_simmons {
@@ -260,18 +261,18 @@ li > a:link, li > a:visited {
     left:330px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow:4px 4px 0 #000000;
+    color:rgb(201,23,47);
+    text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
 #players h2 #last_simmons {
     position: absolute;
-    top: -90px;
-    left: 505px;
-    padding: 20px;
+    top:-90px;
+    left:400px;
+    padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow:4px 4px 0 #000000;
+    color:rgb(201,23,47);
+    text-shadow:2px 2px 0 #000000;
     z-index: 5;
 }
 #players h2 #team_ingram {
@@ -296,7 +297,7 @@ li > a:link, li > a:visited {
 #players h2 #last_ingram {
     position:absolute;
     top:-90px;
-    left:425px;
+    left:450px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
     color:rgb(69,40,124);
