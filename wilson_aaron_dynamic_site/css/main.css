@@ -133,9 +133,9 @@ p#home_p2 {
 
 h1#home_h1 {
     position:relative;
-    top:155px;
+    top:330px;
     font-family: 'vtks_universityregular', sans-serif;
-    color:rgba(190, 183, 132, 0.66);
+    color:rgb(143,116,71);
     font-size:1.8em;
     font-weight:100;
     letter-spacing:2px;
@@ -425,6 +425,10 @@ li > a:link, li > a:visited {
 img#index_img {
     position:relative;
     top:-210px;
+    border: #000000 1px solid;
+    border-radius: 6px;
+    background: rgb(232,211,178);
+    box-shadow:4px 4px 0 rgba(190, 183, 132, 0.66);
     z-index:0;
 }
 
