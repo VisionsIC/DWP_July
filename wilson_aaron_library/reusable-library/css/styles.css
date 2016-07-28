@@ -391,7 +391,17 @@ html {
   background: #ffffff;
 }
 
-body {
+body#main_body {
+  position: relative;
+  width: 96.242%;
+  height: 100%;
+  margin: 20px auto;
+  padding: 0 0 0 0;
+  color: black;
+  overflow: hidden;
+}
+
+body#output_body {
   position: relative;
   width: 96.242%;
   height: 100%;
@@ -577,6 +587,20 @@ div#pat_info {
   padding: 0 0 200px 0;
 }
 
+footer {
+    position: relative;
+    bottom: -25px;
+    background: #ffffff;
+    color: #000000;
+    text-align:center;
+    line-height:100%;
+    width:100%;
+}
+
+footer p {
+    position: relative;
+    font-size: .6em;
+}
 /** ************************************************************************* **/
 /** ********************** MEDIA QUERIES CSS SECTION ************************ **/
 /** ************************************************************************* **/
@@ -594,13 +618,19 @@ div#pat_info {
         background: #ffffff;
     }
 
-    body {
+    body#main_body {
         width: 758px;
-        height: 620px;
+        height: 625px;
         margin: 20px auto;
         color: black;
     }
 
+    body#output_body {
+        width: 758px;
+        height: 425px;
+        margin: 20px auto;
+        color: black;
+    }
 
     .default_div {
         position: relative;
@@ -672,5 +702,30 @@ div#pat_info {
         position: relative;
         justify-content: center;
         width: 220px;
+    }
+
+    footer#main_ftr {
+    position: relative;
+    bottom: 5px;
+    background: #ffffff;
+    color: #000000;
+    text-align:center;
+    line-height:100%;
+    width:100%;
+    }
+
+    footer#output_ftr {
+    position: relative;
+    bottom: -125px;
+    background: #ffffff;
+    color: #000000;
+    text-align:center;
+    line-height:100%;
+    width:100%;
+    }
+
+    footer p {
+    position: relative;
+    font-size: .8em;
     }
 }

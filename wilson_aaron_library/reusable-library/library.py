@@ -43,21 +43,21 @@ class PatientData(object):
         height = int(height)
 
         # Use the IF conditional to make use of a comparison operator to produce the appropriate outcome.
-        if height >= 47:
+        if height > 47:
             height = 16
-        elif height <= 68:
+        elif height < 68:
             height = 16
-        elif height >= 68:
+        elif height > 68:
             height = 18
-        elif height <= 74:
+        elif height < 74:
             height = 18
-        elif height >= 74:
+        elif height > 74:
             height = 20
-        elif height <= 79:
+        elif height < 79:
             height = 20
-        elif height >= 79:
+        elif height > 79:
             height = 22
-        elif height <= 85:
+        elif height < 85:
             height = 22
 
         else:
@@ -76,21 +76,21 @@ class PatientData(object):
         weight = int(weight)
 
         # Use the IF conditional to make use of a comparison operator to produce the appropriate outcome.
-        if weight >= 50:
+        if weight > 50:
             weight = 16
-        elif weight <= 110:
+        elif weight < 110:
             weight = 16
-        elif weight >= 110:
+        elif weight > 110:
             weight = 18
-        elif weight <= 220:
+        elif weight < 220:
             weight = 18
-        elif weight >= 220:
+        elif weight > 220:
             weight = 20
-        elif weight <= 280:
+        elif weight < 280:
             weight = 20
-        elif weight >= 280:
+        elif weight > 280:
             weight = 22
-        elif weight <= 350:
+        elif weight < 350:
             weight = 22
 
         else:

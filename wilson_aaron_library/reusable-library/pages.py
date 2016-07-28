@@ -27,7 +27,7 @@ class BrowserPage(object):
                 <title>{self.title_tag}</title>
                 <link href="{self.css_file}" rel="stylesheet" type="text/css" />
             </head>
-        <body>
+        <body id="main_body">
         <h1 id="title_h1">{self.h1_title}</h1>
         <div id="main_output">
             <div class="default_div">
@@ -422,6 +422,9 @@ class BrowserPage(object):
                 <input class="input_field" id="wc_button" type="submit" value="Submit Wheelchair Request" />
             </form>
             </div>
+            <footer id="main_ftr">
+                    <p>&copy; 2016 Reusable Library | For use as an assignment | FULL SAIL UNIVERSITY </p>
+            </footer>
             <script src="{self.js_file}"></script>
             </body>
         </html>
@@ -459,7 +462,7 @@ class DynamicOutput(object):
                     <title>{self.title_tag}</title>
                     <link href="{self.css_file}" rel="stylesheet" type="text/css" />
                 </head>
-                <body>
+                <body id="output_body">
                     <div id="main_output">
                         <div id="info_output">
                             <h1>Please review your Patient's information below:</h1>
@@ -468,6 +471,9 @@ class DynamicOutput(object):
                         {self.dynamic_data}
                         </div>
                     </div>
+                    <footer id="output_ftr">
+                        <p>&copy; 2016 Reusable Library | For use as an assignment | FULL SAIL UNIVERSITY </p>
+                    </footer>
                 </body>
                   <script src ="{self.js_file}"></script>
             </html>'''
