@@ -503,6 +503,7 @@ img#index_img {
     border-left:1px solid #000000;
     font-size:1.1em;
     text-wrap:none;
+    text-shadow:2px 2px 0 rgba(190, 183, 132, 0.66);
     overflow:visible;
 }
 img#jersey_img {
