@@ -124,7 +124,7 @@ class ContentPage(Page):
         self.__page_header = '''
     <header>
         <h1>NBA's Next Class</h1>
-        <img id="logo" src="images/aaron_logo.png" />
+        <img id="logo" src="images/nba_logo.png" />
         <p>A look at the potential future stars of the NBA!</p>
     </header>\n'''
 

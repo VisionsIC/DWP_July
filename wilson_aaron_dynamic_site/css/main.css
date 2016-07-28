@@ -247,8 +247,8 @@ li > a:link, li > a:visited {
 }
 #players h2 #team_simmons {
     position:absolute;
-    top:-154px;
-    left:218px;
+    top:-160px;
+    left:320px;
     padding:20px;
     font-size:2.5em;
     color: #be1648;
@@ -276,8 +276,8 @@ li > a:link, li > a:visited {
 }
 #players h2 #team_ingram {
     position:absolute;
-    top:-154px;
-    left:218px;
+    top:-160px;
+    left:320px;
     padding:20px;
     font-size:2.5em;
     color:#3188BE;
@@ -305,8 +305,8 @@ li > a:link, li > a:visited {
 }
 #players h2 #team_hield {
     position:absolute;
-    top:-154px;
-    left:218px;
+    top:-160px;
+    left:320px;
     padding:20px;
     font-size:2.5em;
     color:#3188BE;
@@ -344,7 +344,7 @@ li > a:link, li > a:visited {
 #players h2 #first_dunn {
     position:absolute;
     top:-90px;
-    left:367px;
+    left:330px;
     width:25px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
@@ -355,7 +355,7 @@ li > a:link, li > a:visited {
 #players h2 #last_dunn {
     position:absolute;
     top:-90px;
-    left:505px;
+    left:400px;
     padding:20px;
     font-family: 'learning_curve_proregular', sans-serif;
     color: rgb(26,89,140);
@@ -364,8 +364,8 @@ li > a:link, li > a:visited {
 }
 #players h2 #team_murray {
     position:absolute;
-    top:-154px;
-    left:218px;
+    top:-160px;
+    left:320px;
     padding:20px;
     font-size:2.5em;
     color:#3188BE;
@@ -393,8 +393,8 @@ li > a:link, li > a:visited {
 }
 #players h2 #team_brown {
     position:absolute;
-    top:-154px;
-    left:218px;
+    top:-160px;
+    left:320px;
     padding:20px;
     font-size:2.5em;
     color: rgba(55, 93, 5, 0.86);
