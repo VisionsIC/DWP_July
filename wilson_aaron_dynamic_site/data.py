@@ -34,8 +34,7 @@ class Data(object):
     # This is the __init__ method to initiate all the below attributes for the Data() class.
     def __init__(self):
 
-        # Chevy Corvette data type content. The "orig_value" attribute for each automobile are accurate formulas I
-        # figured out through research of that last's original price.
+        # Ben Simmons data type content. The "total_shoes" attribute for each player are accurate formulas.
         self.simmons = Player()
         self.simmons.id = 1
         self.simmons.team = "<p id='team_simmons'>Sixers</p>"
@@ -50,7 +49,7 @@ class Data(object):
 </span>
 '''
 
-        # Chevy Pickup data type content.
+        # Brandon Ingram data type content.
         self.ingram = Player()
         self.ingram.id = 2
         self.ingram.team = "<p id='team_ingram'>Lakers</p>"
@@ -64,7 +63,7 @@ class Data(object):
 <span id="ingram_info">Standing at 6-10 with a 7-3 wingspan, the athletically gifted 18-year-old has drawn Kevin Durant comparisons since appearing in the national spotlight during his lone season at Duke. He has all of the tools necessary to become an All-NBA talent, and if he adds some muscle to his sub-200 pound frame, he could just be the next franchise player in Los Angeles.</span>
 '''
 
-        # Chevy Chevelle data type content.
+        # Buddy Hield data type content.
         self.hield = Player()
         self.hield.id = 3
         self.hield.team = "<p id='team_hield'>Pelicans</p>"
@@ -78,7 +77,7 @@ class Data(object):
 <span id="hield_info">Hield was the one of the best players in all of college basketball last season, but now comes a whole new test. He's a knock down shooter who can spread the floor for All-Star forward Anthony Davis, and his year-by-year improvements at Oklahoma are encouraging, but — behind guys like Eric Gordon, Tyrke Evans and Jrue Holiday — is he enough of an all-around talent to make an immediate impact for the lowly Pelicans?</span>
 '''
 
-        # Chevy Nova data type content.
+        # Kris Dunn data type content.
         self.dunn = Player()
         self.dunn.id = 4
         self.dunn.team = "<p id='team_dunn'>Timberwolves</p>"
@@ -93,7 +92,7 @@ class Data(object):
 
 '''
 
-        # Chevy Bel Air data type content.
+        # Jamal Murray data type content.
         self.murray = Player()
         self.murray.id = 5
         self.murray.team = "<p id='team_murray'>Nuggets</p>"
@@ -108,7 +107,7 @@ class Data(object):
 
 '''
 
-        # Chevy El Camino data type content.
+        # Jaylen Brown data type content.
         self.brown = Player()
         self.brown.id = 6
         self.brown.team = "<p id='team_brown'>Celtics</p>"
