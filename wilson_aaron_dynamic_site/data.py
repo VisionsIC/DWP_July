@@ -12,7 +12,7 @@
 # All player information from http://www.usatoday.com.
 
 
-# Defines a new SuperClass called Automobile() to which sets forth the attributes to be used by its subclasses below.
+# Defines a new SuperClass called Player() to which sets forth the attributes to be used by its subclasses below.
 class Player(object):
 
     # This is the __init__ method to initiate all the below attributes for the Player() class.

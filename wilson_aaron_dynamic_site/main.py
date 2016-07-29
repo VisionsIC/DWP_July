@@ -62,21 +62,21 @@ class MainHandler(webapp2.RequestHandler):
                 # Write "Home" dynamic HTML page.
                 self.response.write(cpc.build_markup())
 
-            # IF the id is equal to 1; GET this "Corvette" page, dynamically.
+            # IF the id is equal to 1; GET this "Simmons" page, dynamically.
             elif self.request.GET["id"] == "1":
 
                 # Use this variable to shorten up the "doc" Data() class with the attribute of "simmons".
                 player = doc.simmons
 
-                # Manipulation of the "Corvette" HTML title_tag tag.
+                # Manipulation of the player "Simmons" HTML title_tag, tag.
                 cpc.title_tag = "NBA's Next Class | " + player.last
 
-                # Display "Chevy Corvette" information to the "body_tag" content area of the dynamic page.
+                # Display "Ben Simmons" information to the "body_tag" content area of the dynamic page.
 
                 # Opening HTML UL tag.
                 cpc.body_tag += cpc.begin_ul
 
-                # Incorporate navigation buttons for this "Corvette" dynamic page to the UL tag.
+                # Incorporate navigation buttons for this player "Simmons" dynamic page to the UL tag.
                 cpc.body_tag += cpc.build_nav_button("?id=0", "Home")
                 cpc.body_tag += cpc.build_nav_button("?id=1", "Ben Simmons")
                 cpc.body_tag += cpc.build_nav_button("?id=2", "Brandon Ingram")
@@ -88,7 +88,7 @@ class MainHandler(webapp2.RequestHandler):
                 # Closing HTML UL tag.
                 cpc.body_tag += cpc.end_ul
 
-                # Incorporate all "Corvette" automobile "body_tag" dynamic content.
+                # Incorporate all the "Simmons" player "body_tag" dynamic content.
                 cpc.body_tag += cpc.write_player_data(player)
                 cpc.body_tag += cpc.write_player_jerseys(player)
                 cpc.body_tag += cpc.write_content(player)
@@ -96,24 +96,24 @@ class MainHandler(webapp2.RequestHandler):
                 # Close this section of the dynamic HTML page.
                 cpc.body_tag += cpc.end_section
 
-                # Write "Corvette" dynamic HTML page.
+                # Write player "Simmons" dynamic HTML page.
                 self.response.write(cpc.build_markup())
 
-            # IF the id is equal to 0; GET this "Pickup" page, dynamically.
+            # IF the id is equal to 0; GET this player "Ingram" page, dynamically.
             elif self.request.GET["id"] == "2":
 
                 # Use this variable to shorten up the "doc" Data() class with the attribute of "ingram".
                 player = doc.ingram
 
-                # Manipulation of the "Pickup" HTML title_tag tag.
+                # Manipulation of the player "Ingram" HTML title_tag, tag.
                 cpc.title_tag = "NBA's Next Class | " + player.last
 
-                # Display "Chevy Pickup" information to the "body_tag" content area of the dynamic page.
+                # Display "Brandon Ingram" information to the "body_tag" content area of the dynamic page.
 
                 # Opening HTML UL tag.
                 cpc.body_tag += cpc.begin_ul
 
-                # Incorporate navigation buttons for this "Pickup" dynamic page to the UL tag.
+                # Incorporate navigation buttons for this player "Ingram" dynamic page to the UL tag.
                 cpc.body_tag += cpc.build_nav_button("?id=0", "Home")
                 cpc.body_tag += cpc.build_nav_button("?id=1", "Ben Simmons")
                 cpc.body_tag += cpc.build_nav_button("?id=2", "Brandon Ingram")
@@ -125,7 +125,7 @@ class MainHandler(webapp2.RequestHandler):
                 # Closing HTML UL tag.
                 cpc.body_tag += cpc.end_ul
 
-                # Incorporate all "Pickup" automobile "body_tag" dynamic content.
+                # Incorporate all "Ingram" player "body_tag" dynamic content.
                 cpc.body_tag += cpc.write_player_data(player)
                 cpc.body_tag += cpc.write_player_jerseys(player)
                 cpc.body_tag += cpc.write_content(player)
@@ -133,24 +133,24 @@ class MainHandler(webapp2.RequestHandler):
                 # Close this section of the dynamic HTML page.
                 cpc.body_tag += cpc.end_section
 
-                # Write "Pickup" dynamic HTML page.
+                # Write player "Ingram" dynamic HTML page.
                 self.response.write(cpc.build_markup())
 
-            # IF the id is equal to 3; GET this "Chevelle" page, dynamically.
+            # IF the id is equal to 3; GET this player "Hield" page, dynamically.
             elif self.request.GET["id"] == "3":
 
-                # Use this variable to shorten up the "doc" Data() class with the attribute of "Chevelle".
+                # Use this variable to shorten up the "doc" Data() class with the attribute of player "Hield".
                 player = doc.hield
 
-                # Manipulation of the "Chevelle" HTML title_tag tag.
+                # Manipulation of the player "Hield" HTML title_tag, tag.
                 cpc.title_tag = "NBA's Next Class | " + player.last
 
-                # Display "Chevy Chevelle" information to the "body_tag" content area of the dynamic page.
+                # Display "Buddy Hield" information to the "body_tag" content area of the dynamic page.
 
                 # Opening HTML UL tag.
                 cpc.body_tag += cpc.begin_ul
 
-                # Incorporate navigation buttons for this "Chevelle" dynamic page to the UL tag.
+                # Incorporate navigation buttons for this player "Hield" dynamic page to the UL tag.
                 cpc.body_tag += cpc.build_nav_button("?id=0", "Home")
                 cpc.body_tag += cpc.build_nav_button("?id=1", "Ben Simmons")
                 cpc.body_tag += cpc.build_nav_button("?id=2", "Brandon Ingram")
@@ -162,7 +162,7 @@ class MainHandler(webapp2.RequestHandler):
                 # Closing HTML UL tag.
                 cpc.body_tag += cpc.end_ul
 
-                # Incorporate all "Chevelle" automobile "body_tag" dynamic content.
+                # Incorporate all "Hield" player "body_tag" dynamic content.
                 cpc.body_tag += cpc.write_player_data(player)
                 cpc.body_tag += cpc.write_player_jerseys(player)
                 cpc.body_tag += cpc.write_content(player)
@@ -170,24 +170,24 @@ class MainHandler(webapp2.RequestHandler):
                 # Close this section of the dynamic HTML page.
                 cpc.body_tag += cpc.end_section
 
-                # Write "Chevelle" dynamic HTML page.
+                # Write player "Hield" dynamic HTML page.
                 self.response.write(cpc.build_markup())
 
-            # IF the id is equal to 4; GET this "Nova" page, dynamically.
+            # IF the id is equal to 4; GET this "Dunn" page, dynamically.
             elif self.request.GET["id"] == "4":
 
-                # Use this variable to shorten up the "doc" Data() class with the attribute of "Nova".
+                # Use this variable to shorten up the "doc" Data() class with the attribute of "Dunn".
                 player = doc.dunn
 
-                # Manipulation of the "Nova" HTML title_tag tag.
+                # Manipulation of the "Dunn" HTML title_tag tag.
                 cpc.title_tag = "NBA's Next Class | " + player.last
 
-                # Display "Chevy Nova" information to the "body_tag" content area of the dynamic page.
+                # Display "Kris Dunn" information to the "body_tag" content area of the dynamic page.
 
                 # Opening HTML UL tag.
                 cpc.body_tag += cpc.begin_ul
 
-                # Incorporate navigation buttons for this "Chevelle" dynamic page to the UL tag.
+                # Incorporate navigation buttons for this "Dunn" dynamic page to the UL tag.
                 cpc.body_tag += cpc.build_nav_button("?id=0", "Home")
                 cpc.body_tag += cpc.build_nav_button("?id=1", "Ben Simmons")
                 cpc.body_tag += cpc.build_nav_button("?id=2", "Brandon Ingram")
@@ -199,7 +199,7 @@ class MainHandler(webapp2.RequestHandler):
                 # Closing HTML UL tag.
                 cpc.body_tag += cpc.end_ul
 
-                # Incorporate all "Nova" automobile "body_tag" dynamic content.
+                # Incorporate all "Dunn" player "body_tag" dynamic content.
                 cpc.body_tag += cpc.write_player_data(player)
                 cpc.body_tag += cpc.write_player_jerseys(player)
                 cpc.body_tag += cpc.write_content(player)
@@ -207,24 +207,24 @@ class MainHandler(webapp2.RequestHandler):
                 # Close this section of the dynamic HTML page.
                 cpc.body_tag += cpc.end_section
 
-                # Write "Nova" dynamic HTML page.
+                # Write "Dunn" dynamic HTML page.
                 self.response.write(cpc.build_markup())
 
-            # IF the id is equal to 5; GET this "Bel Air" page, dynamically.
+            # IF the id is equal to 5; GET this player "Murray" page, dynamically.
             elif self.request.GET["id"] == "5":
 
-                # Use this variable to shorten up the "doc" Data() class with the attribute of "Bel Air".
+                # Use this variable to shorten up the "doc" Data() class with the attribute of player "Murray".
                 player = doc.murray
 
-                # Manipulation of the "Bel Air" HTML title_tag tag.
+                # Manipulation of the "Murray" HTML title_tag tag.
                 cpc.title_tag = "NBA's Next Class | " + player.last
 
-                # Display "Chevy Bel Air" information to the "body_tag" content area of the dynamic page.
+                # Display "Jamal Murray" information to the "body_tag" content area of the dynamic page.
 
                 # Opening HTML UL tag.
                 cpc.body_tag += cpc.begin_ul
 
-                # Incorporate navigation buttons for this "Bel Air" dynamic page to the UL tag.
+                # Incorporate navigation buttons for this player "Murray" dynamic page to the UL tag.
                 cpc.body_tag += cpc.build_nav_button("?id=0", "Home")
                 cpc.body_tag += cpc.build_nav_button("?id=1", "Ben Simmons")
                 cpc.body_tag += cpc.build_nav_button("?id=2", "Brandon Ingram")
@@ -236,7 +236,7 @@ class MainHandler(webapp2.RequestHandler):
                 # Closing HTML UL tag.
                 cpc.body_tag += cpc.end_ul
 
-                # Incorporate all "Bel Air" automobile "body_tag" dynamic content.
+                # Incorporate all player "Murray" automobile "body_tag" dynamic content.
                 cpc.body_tag += cpc.write_player_data(player)
                 cpc.body_tag += cpc.write_player_jerseys(player)
                 cpc.body_tag += cpc.write_content(player)
@@ -244,24 +244,24 @@ class MainHandler(webapp2.RequestHandler):
                 # Close this section of the dynamic HTML page.
                 cpc.body_tag += cpc.end_section
 
-                # Write "Bel Air" dynamic HTML page.
+                # Write player "Murray" dynamic HTML page.
                 self.response.write(cpc.build_markup())
 
-            # IF the id is equal to 6; GET this "El Camino" page, dynamically.
+            # IF the id is equal to 6; GET this player "Brown" page, dynamically.
             elif self.request.GET["id"] == "6":
 
-                # Use this variable to shorten up the "doc" Data() class with the attribute of "El Camino".
+                # Use this variable to shorten up the "doc" Data() class with the attribute of "Brown".
                 player = doc.brown
 
-                # Manipulation of the "El Camino" HTML title_tag tag.
+                # Manipulation of the player "Brown" HTML title_tag tag.
                 cpc.title_tag = "NBA's Next Class | " + player.last
 
-                # Display "Chevy El Camino" information to the "body_tag" content area of the dynamic page.
+                # Display "Brown" player information to the "body_tag" content area of the dynamic page.
 
                 # Opening HTML UL tag.
                 cpc.body_tag += cpc.begin_ul
 
-                # Incorporate navigation buttons for this "El Camino" dynamic page to the UL tag.
+                # Incorporate navigation buttons for this player "Brown" dynamic page to the UL tag.
                 cpc.body_tag += cpc.build_nav_button("?id=0", "Home")
                 cpc.body_tag += cpc.build_nav_button("?id=1", "Ben Simmons")
                 cpc.body_tag += cpc.build_nav_button("?id=2", "Brandon Ingram")
@@ -273,7 +273,7 @@ class MainHandler(webapp2.RequestHandler):
                 # Closing HTML UL tag.
                 cpc.body_tag += cpc.end_ul
 
-                # Incorporate all "El Camino" automobile "body_tag" dynamic content.
+                # Incorporate all player "Brown" automobile "body_tag" dynamic content.
                 cpc.body_tag += cpc.write_player_data(player)
                 cpc.body_tag += cpc.write_player_jerseys(player)
                 cpc.body_tag += cpc.write_content(player)
@@ -281,13 +281,13 @@ class MainHandler(webapp2.RequestHandler):
                 # Close this section of the dynamic HTML page.
                 cpc.body_tag += cpc.end_section
 
-                # Write "El Camino" dynamic HTML page.
+                # Write player "Brown" dynamic HTML page.
                 self.response.write(cpc.build_markup())
 
         # Else statement exists to tell python to load these code settings as if it were a HTML default "index" page.
         else:
 
-            # Manipulation of the "Home" HTML title_tag tag (the default setting).
+            # Manipulation of the "Home" HTML title_tag, tag (the default setting).
             cpc.title_tag = "NBA's Next Class | Home"
 
             # Display "Chevy Home" information to the "body_tag" content area of the dynamic page (the default setting).
